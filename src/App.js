@@ -1,5 +1,7 @@
 import './App.css';
-import Home from './One_react/Home';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Home from './5_react/Home';
 
 function App() {
   return (
