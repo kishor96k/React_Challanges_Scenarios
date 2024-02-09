@@ -32,7 +32,35 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/* newly added custom css start */
+.placeholder {
+  background: rgb(255, 240, 120);
+}
+
+.placeholder:before {
+  content: "drop here";
+  color: rgb(225, 210, 90);
+}
+
+li {
+  padding: 10px 15px;
+  margin: 4px 0;
+  background: #eee;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15)1.95px 1.95px 2.6px;
+}
+li:hover{
+  background: darkgreen;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+/* newly added custom css end*/
