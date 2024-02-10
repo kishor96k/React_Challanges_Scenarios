@@ -1,0 +1,43 @@
+.analog-clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #333;
+    transform-origin: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand:nth-child(1) {
+    background-color: red; /* Seconds hand color */
+}
+
+.hand:nth-child(2) {
+    height: 3px;
+    background-color: #333; /* Minutes hand color */
+}
+
+.hand:nth-child(3) {
+    height: 4px;
+    background-color: blue; /* Hours hand color */
+}
+
+.center {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
